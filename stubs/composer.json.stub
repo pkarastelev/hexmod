@@ -1,0 +1,16 @@
+{
+  "name": "modules/{{packageName}}",
+  "description": "",
+  "type": "library",
+  "version": "1.0",
+  "license": "proprietary",
+  "require": {},
+  "minimum-stability": "stable",
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Modules\\{{moduleName}}\\Infrastructure\\Providers\\{{moduleName}}ServiceProvider"
+      ]
+    }
+  }
+}
