@@ -46,6 +46,7 @@ class MakeModule extends Command
             'Domain/Entities',
 
             // Infrastructure
+            'Infrastructure/Persistence/Migrations',
             'Infrastructure/Persistence/Models',
             'Infrastructure/Persistence/Repositories',
             'Infrastructure/Providers',
